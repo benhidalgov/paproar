@@ -16,10 +16,16 @@
   margin-bottom: 0.5rem;
 }
 
+.container h1,
+.container h2 {
+  /* Seleccionamos h1 y h2 */
+  color: black; /* Cambié el color a negro */
+}
+
 .container p {
   font-size: clamp(1rem, 1.5vw, 1.125rem);
   line-height: 1.5;
-  color: #8c8c8c;
+  color: black; /* Cambié el color a negro */
   margin: 0 0 1rem;
   max-width: 60ch;
 }
@@ -38,7 +44,7 @@
 
 @media (prefers-color-scheme: dark) {
   .container p {
-    color: #b0b0b0;
+    color: black; /* Cambié el color a negro en modo oscuro también */
   }
 
   .container a {

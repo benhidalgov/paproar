@@ -1,0 +1,54 @@
+ion-content {
+  background-image: url("/assets/images/fondo.jpg"); /* Ruta de la imagen */
+  background-size: cover;
+  background-position: center;
+  --ion-background-color: transparent; /* Hace que el fondo sea transparente para mostrar la imagen */
+  padding: 16px;
+}
+
+/* Estilo para centrar el contenedor principal en la pantalla */
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 16px; /* Asegura que el contenido tenga margen */
+}
+
+/* Estilo para enmarcar el contenido */
+.enmarcar {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Fondo blanco semitransparente para resaltar el contenido */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Estilo para los títulos */
+.enmarcar h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.enmarcar h2 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 1.5rem;
+}
+
+/* Contenedor de botones con margen superior */
+.margin-top {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}

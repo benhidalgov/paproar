@@ -1,12 +1,10 @@
 /* Fondo y contenedor centrado */
 ion-content {
-  background: url("/assets/images/fondo.jpg") no-repeat center center / cover !important;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+  background-image: url("/assets/images/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  --ion-background-color: transparent;
+  padding: 16px;
 }
 
 /* Contenedor principal */
